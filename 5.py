@@ -4,5 +4,5 @@ length = 1
 while vol < n:
     vol = length**3
     if vol <= n:
-        print(vol)
+        print(vol, end=' ')
     length += 1
